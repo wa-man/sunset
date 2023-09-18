@@ -12,7 +12,7 @@ const CONFIG = new Config({
     engines: {
       g: ['https://google.com/search?q=', 'Google'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
-      d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
+      d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'] ,
       b: ['https://baidu.com/s?ie=utf-8&wd=', 'Baidu'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
     }
@@ -29,122 +29,165 @@ const CONFIG = new Config({
       background_url: 'src/img/banners/bg-4.gif',
       categories: [
         {
-          name: 'subreddits',
+          name: 'Repository',
           links: [
             {
-              name: 'r/programming/',
-              url: 'https://www.reddit.com/r/programming/'
+              name: 'github',
+              url: 'hhtps://github.com/',
+              icon: 'brand-github',
+              icon_color: '#c0caf5'
             },
             {
-              name: 'r/archlinux/',
-              url: 'https://www.reddit.com/r/archlinux/'
-            },
-            {
-              name: 'r/linuxmasterrace/',
-              url: 'https://www.reddit.com/r/linuxmasterrace/'
-            },
-            {
-              name: 'r/unixporn/',
-              url: 'https://www.reddit.com/r/unixporn/'
-            },
-            {
-              name: 'r/mechkbds/',
-              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
-              icon: 'keyboard',
-              icon_color: '#a57685'
+              name: 'gitlab',
+              url: 'hhtps://gitlab.com/',
+              icon: 'brand-gitlab',
+              icon_color: '#ff9e64'
             }
           ]
         },
         {
-          name: 'misc',
+          name: 'Online Judge',
           links: [
             {
-              name: 'post office',
-              url: 'http://afternoon.dynu.com/letterbox.html',
-              icon: 'mailbox'
+              name: 'codeforces',
+              url: 'https://codeforces.com/',
+              icon: 'chart-bar',
+              icon_color: '#7aa2f7'
+            },
+            {
+              name: 'luogu',
+              url: 'https://luogu.com.cn/',
+              icon: 'ribbon-health',
+              icon_color: '#7dcfff'
+            },
+            {
+              name: 'atcoder',
+              url: 'https://atcoder.jp/',
+              icon: 'shield',
+              icon_color: '#000000'
+            }
+          ]
+        },
+        {
+          name: 'Ressources',
+          links: [
+            {
+              name: 'cppreference',
+              url: 'https://en.cppreference.com/w/',
+              icon: 'brand-cpp',
+              icon_color: '#565f89'
+            },
+            {
+              name: 'phind',
+              url: 'https://www.phind.com/',
+              icon: 'brand-openai',
+              icon_color: '#9ece6a'
+            },
+            {
+              name: 'pydoc',
+              url: 'https://www.python.org/doc/',
+              icon: 'brand-python',
+              icon_color: '#f0ca73'
             },
             {
               name: 'rust docs',
               url: 'https://doc.rust-lang.org/book/',
               icon: 'notebook',
-              icon_color: '#977a3a'
+              icon_color: '#ff9e64'
+            },
+            {
+              name: 'hacktricks',
+              url: 'https://book.hacktricks.xyz/welcome/readme',
+              icon: 'biohazard',
+              icon_color: '#f24458'
             }
           ]
-        }
+        },
       ]
     },
     {
-      name: 'School',
-      background_url: 'src/img/banners/bg-5.gif',
+      name: 'Chi ll',
+      background_url: 'src/img/banners/bg-6.gif',
       categories: [{
-        name: 'Portals',
+        name: 'Social Media',
         links: [
-          {
-            url: 'https://pronote.fis.edu.hk/eleve.html',
-            name: 'Pronote'
-          },
-          {
-            url: 'https://cditkohk.esidoc.fr/',
-            name: 'Esidoc'
-          }
-        ]
-      }],
-      categories: [{
-        name: 'Ressources',
-        links: [
-          {
-            url: 'https://mail.google.com/mail/?authuser=0',
-            name: 'Gmail'
-          },
-          {
-            url: 'https://classroom.google.com/',
-            name: 'Classroom'
-          },
-          {
-            url: 'https://docs.google.com/document/?usp=docs_alc&authuser=0',
-            name: 'Docs'
-          },
-          {
-            url: 'https://drive.google.com/?authuser=0',
-            name: 'Drive'
-          }
-        ]
-      }]
-    },
-    {
-      name: 'boards',
-      background_url: 'src/img/banners/bg-1.gif',
-      categories: [{
-        name: 'fun',
-        links: [
-          {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
-          },
-          {
-            name: '/out/',
-            url: 'https://4chan.org/out',
-            icon: 'leaf',
-            icon_color: '#64876d'
-          },
-          {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
-          },
-          {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
-          },
-          {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
+            {
+              name: 'whatsapp',
+              url: 'https://web.whatsapp.com/',
+              icon: 'brand-whatsapp',
+              icon_color: '#9ece6a'
+            },
+            {
+              name: 'discord',
+              url: 'https://discord.com/channels/@me',
+              icon: 'brand-discord',
+              icon_color: '#7aa2f7'
+            },
+            {
+              name: 'twitter',
+              url: 'https://twitter.com/home',
+              icon: 'brand-twitter-filled',
+              icon_color: '#2ac3de'
+            },
+            {
+              name: 'reddit',
+              url: 'https://www.reddit.com/',
+              icon: 'brand-reddit',
+              icon_color: '#ff9e64',
+            },
+            {
+            name: 'youtube',
+            url: 'https://www.youtube.com/"',
+            icon: 'brand-youtube-filled',
+            icon_color: '#f7768e',
           }
         ]
       },
+      {
+        name: 'Fun',
+        links: [
+          {
+            name: 'chess',
+            url: 'https://www.chess.com/home',
+            icon: 'chess-queen-filled',
+            icon_color: '#9ece6a',
+          },
+          {
+            name: 'monkeytype',
+            url: 'https://monkeytype.com/',
+            icon: 'keyboard',
+            icon_color: '#73daca',
+          },
+          {
+            name: 'tetris',
+            url: 'https://tetris.com/',
+            icon: 'brand-apple-arcade',
+            icon_color: '#ea6962',
+          }
+        ]
+      },
+    {
+      name: 'Weeb',
+      links: [
+        {
+          name: 'mangadex',
+          url: 'https://mangadex.org/',
+          icon: 'book',
+          icon_color: '#e0af68'
+        },
+        {
+            name: 'manga updates',
+            url: 'https://www.mangaupdates.com/',
+            icon: 'list-search',
+            icon_color: '#e0af68'
+        },
+      ]
+    }]
+    },
+    {
+      name: 'Boards',
+      background_url: 'src/img/banners/bg-7.gif',
+      categories: [
       {
         name: 'Comfy',
         links: [
@@ -183,7 +226,33 @@ const CONFIG = new Config({
             icon: 'code'
           }
         ]
-      }
-      ]
+      },
+      {
+      name: 'Subreddits',
+        links: [
+          {
+            name: 'r/programming/',
+            url: 'https://www.reddit.com/r/programming/'
+          },
+          {
+            name: 'r/archlinux/',
+            url: 'https://www.reddit.com/r/archlinux/'
+          },
+          {
+            name: 'r/linuxmasterrace/',
+            url: 'https://www.reddit.com/r/linuxmasterrace/'
+          },
+          {
+            name: 'r/unixporn/',
+            url: 'https://www.reddit.com/r/unixporn/'
+          },
+          {
+            name: 'r/mechkbds/',
+            url: 'https://www.reddit.com/r/MechanicalKeyboards/',
+            icon: 'keyboard',
+            icon_color: '#a57685'
+          }
+        ]
+      }]
     }]
 });

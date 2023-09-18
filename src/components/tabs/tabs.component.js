@@ -42,7 +42,7 @@ class Category extends Component {
   }
 
   static getBackgroundStyle(url) {
-    return `style="background: #fff url(${url}) repeat left;"`;
+    return `style="background: #fff url(${url}); background-repeat: no-repeat; background-size: contain;"`;
   }
 
   static getAll(tabs) {
@@ -80,7 +80,7 @@ class Tabs extends Component {
       status-bar {
           bottom: -70px;
           height: 32px;
-          background: #18181d;
+          background: #1a1b26;
           border-radius: 4px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
       }
@@ -106,7 +106,7 @@ class Tabs extends Component {
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-          background: #18181d;
+          background: #1a1b26;
       }
 
       .categories {
@@ -125,17 +125,16 @@ class Tabs extends Component {
           right: 100%;
           background: #fff url("../img/bg-1.gif") repeat left;
           transition: all .35s;
-          animation: scroll 25s ease-in-out infinite;
       }
 
       @keyframes scroll {
-          50% {
-              background-position-x: -240px;
-          }
+        50% {
+          background-position-x: -240px;
+        }
       }
 
       .categories ul:nth-child(2) {
-          --flavour: #16a2a2;
+          --flavour: #16a2a2; 
       }
 
       .categories ul:nth-child(3) {
@@ -155,7 +154,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #18181d;
+          background: #1a1b26;
           padding: 3.0%;
           flex-wrap: wrap;
       }

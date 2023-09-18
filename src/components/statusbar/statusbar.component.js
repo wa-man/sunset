@@ -121,7 +121,7 @@ class Statusbar extends Component {
           height: 32px;
           color: #fff;
           font-size: 12px;
-          background: #1d1d21;
+          background: #1a1b26;
       }
 
       .widgets:hover .edit {
@@ -172,7 +172,7 @@ class Statusbar extends Component {
 
       .add-tab {
           border: 0;
-          background: #282830;
+          background: #232536;
           color: #9898a5;
           cursor: pointer;
           border-radius: 5px 15px 15px 5px;
@@ -198,7 +198,6 @@ class Statusbar extends Component {
                 </button>
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
-                    <crypto-rate class="+ widget"></crypto-rate>
                     <current-time class="+ widget"></current-time>
                     <weather-forecast class="+ widget weather"></weather-forecast>
                 </div>
