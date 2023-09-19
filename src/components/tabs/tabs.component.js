@@ -4,7 +4,7 @@ class Links extends Component {
   }
 
   static getIcon(link) {
-    const defaultColor = '#726f6f';
+    const defaultColor = '#cfc9c2';
 
     return link.icon
       ? `<i class="ti ti-${link.icon} link-icon"
@@ -134,11 +134,11 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(2) {
-          --flavour: #16a2a2; 
+          --flavour: #73daca; 
       }
 
       .categories ul:nth-child(3) {
-          --flavour: #5b52e4;
+          --flavour: #7aa2f7;
       }
 
       .categories ul .links {
@@ -200,12 +200,12 @@ class Tabs extends Component {
           padding: 1em;
           margin: auto;
           border-radius: 5px;
-          box-shadow: inset 0 0 0 1px rgb(255 255 255 / 50%);
+          box-shadow: inset 0 0 0 2px var(--flavour);
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
-          background: linear-gradient(to top, #000000, rgb(191 191 191 / 40%));
-          color: rgb(255 255 255 / 65%);
+          background: linear-gradient(to top, rgb(36 40 59 / 90%), #1a1b26);
+          color: var(--flavour);
           letter-spacing: 1px;
           font: 100 30px 'Nunito', sans-serif;
           text-align: center;

@@ -33,13 +33,13 @@ const CONFIG = new Config({
           links: [
             {
               name: 'github',
-              url: 'hhtps://github.com/',
+              url: 'https://github.com/',
               icon: 'brand-github',
               icon_color: '#c0caf5'
             },
             {
               name: 'gitlab',
-              url: 'hhtps://gitlab.com/',
+              url: 'https://gitlab.com/',
               icon: 'brand-gitlab',
               icon_color: '#ff9e64'
             }
