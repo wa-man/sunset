@@ -12,6 +12,7 @@ const CONFIG = new Config({
     engines: {
       g: ['https://google.com/search?q=', 'Google'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
+      h: ['https://'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'] ,
       b: ['https://baidu.com/s?ie=utf-8&wd=', 'Baidu'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
@@ -139,7 +140,7 @@ const CONFIG = new Config({
             name: 'youtube',
             url: 'https://www.youtube.com/"',
             icon: 'brand-youtube-filled',
-            icon_color: '#f7768e',
+            icon_color: '#f05656',
           }
         ]
       },
@@ -173,14 +174,20 @@ const CONFIG = new Config({
           name: 'mangadex',
           url: 'https://mangadex.org/',
           icon: 'book',
+          icon_color: '#f05656'
+        },
+        {
+          name: 'manga updates',
+          url: 'https://www.mangaupdates.com/',
+          icon: 'list-search',
           icon_color: '#e0af68'
         },
         {
-            name: 'manga updates',
-            url: 'https://www.mangaupdates.com/',
-            icon: 'list-search',
-            icon_color: '#e0af68'
-        },
+          name: 'mangakakalot',
+          url: 'https://ww6.mangakakalot.tv/',
+          icon: 'circle-letter-k',
+          icon_color: '#fc8556'
+        }
       ]
     }]
     },
@@ -189,7 +196,7 @@ const CONFIG = new Config({
       background_url: 'src/img/banners/bg-7.gif',
       categories: [
       {
-        name: 'Comfy',
+        name: 'Chill',
         links: [
           {
             name: '/lounge/',
@@ -198,6 +205,10 @@ const CONFIG = new Config({
           {
             name: '/comfy/',
             url: 'https://anon.cafe/comfy/catalog.html'
+          },
+          {
+            name: '/a/',
+            url: 'https://boards.4channel.org/a/'
           }
         ]
       },

@@ -204,7 +204,7 @@ class Tabs extends Component {
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
-          background: linear-gradient(to top, rgb(36 40 59 / 90%), #1a1b26);
+          background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);
           color: var(--flavour);
           letter-spacing: 1px;
           font: 100 30px 'Nunito', sans-serif;
