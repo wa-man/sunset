@@ -234,7 +234,6 @@ const CONFIG = new Config({
           {
             name: '/prog/',
             url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
           }
         ]
       },
@@ -260,8 +259,6 @@ const CONFIG = new Config({
           {
             name: 'r/mechkbds/',
             url: 'https://www.reddit.com/r/MechanicalKeyboards/',
-            icon: 'keyboard',
-            icon_color: '#a57685'
           }
         ]
       }]
