@@ -101,6 +101,18 @@ const CONFIG = new Config({
               url: 'https://book.hacktricks.xyz/welcome/readme',
               icon: 'biohazard',
               icon_color: '#f24458'
+            },
+            {
+              name: 'Arch Wiki',
+              url: 'https://wiki.archlinux.org/',
+              icon: 'building-arch',
+              icon_color: '#2ac3de'
+            },
+            {
+              name: 'Hypr Wiki',
+              url: 'https://wiki.hyprland.org/',
+              icon: 'droplet',
+              icon_color: '#73daca'
             }
           ]
         },
